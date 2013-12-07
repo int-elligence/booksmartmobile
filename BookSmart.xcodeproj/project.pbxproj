@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000A1DE91852C59D00F2376A /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 000A1DE81852C59D00F2376A /* Socket.m */; };
 		008BAD1218516E1D003B05F6 /* AdvancesFlightsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BAD1118516E1D003B05F6 /* AdvancesFlightsViewController.m */; };
 		008BAD1518528406003B05F6 /* AdvancesTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BAD1418528406003B05F6 /* AdvancesTabViewController.m */; };
 		008BAD1F1852881B003B05F6 /* AdvancesDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 008BAD1E1852881B003B05F6 /* AdvancesDetailsViewController.m */; };
 		008BAD211852C268003B05F6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008BAD201852C268003B05F6 /* MapKit.framework */; };
 		008BAD231852C34E003B05F6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008BAD221852C34E003B05F6 /* CoreMotion.framework */; };
-		009F754B18500AAC00E2AC77 /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F754A18500AAC00E2AC77 /* Socket.m */; };
 		009F755018501FC400E2AC77 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F754F18501FC400E2AC77 /* LoginViewController.m */; };
 		009F75561850215E00E2AC77 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 009F75551850215E00E2AC77 /* TabBarViewController.m */; };
 		009F755918511F4300E2AC77 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 009F755818511F4300E2AC77 /* Logo.png */; };
@@ -49,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000A1DE71852C59D00F2376A /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		000A1DE81852C59D00F2376A /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
 		008BAD1018516E1D003B05F6 /* AdvancesFlightsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancesFlightsViewController.h; sourceTree = "<group>"; };
 		008BAD1118516E1D003B05F6 /* AdvancesFlightsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancesFlightsViewController.m; sourceTree = "<group>"; };
 		008BAD1318528406003B05F6 /* AdvancesTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancesTabViewController.h; sourceTree = "<group>"; };
@@ -57,8 +59,6 @@
 		008BAD1E1852881B003B05F6 /* AdvancesDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancesDetailsViewController.m; sourceTree = "<group>"; };
 		008BAD201852C268003B05F6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		008BAD221852C34E003B05F6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		009F754918500AAC00E2AC77 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Socket.h; path = "../../Community Park/Community Park/Socket.h"; sourceTree = "<group>"; };
-		009F754A18500AAC00E2AC77 /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Socket.m; path = "../../Community Park/Community Park/Socket.m"; sourceTree = "<group>"; };
 		009F754E18501FC400E2AC77 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		009F754F18501FC400E2AC77 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		009F75541850215E00E2AC77 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
@@ -198,8 +198,8 @@
 			children = (
 				5E6DD511184FBE8A004E2EE9 /* AppDelegate.h */,
 				5E6DD512184FBE8A004E2EE9 /* AppDelegate.m */,
-				009F754918500AAC00E2AC77 /* Socket.h */,
-				009F754A18500AAC00E2AC77 /* Socket.m */,
+				000A1DE71852C59D00F2376A /* Socket.h */,
+				000A1DE81852C59D00F2376A /* Socket.m */,
 			);
 			name = "Supporting Classes";
 			sourceTree = "<group>";
@@ -394,10 +394,10 @@
 			files = (
 				5E6DD548184FC206004E2EE9 /* AdvancesViewController.m in Sources */,
 				5E6DD513184FBE8A004E2EE9 /* AppDelegate.m in Sources */,
+				000A1DE91852C59D00F2376A /* Socket.m in Sources */,
 				5E6DD542184FBFF5004E2EE9 /* ContractsViewController.m in Sources */,
 				009F755018501FC400E2AC77 /* LoginViewController.m in Sources */,
 				5E6DD54B184FC3D0004E2EE9 /* ProfileViewController.m in Sources */,
-				009F754B18500AAC00E2AC77 /* Socket.m in Sources */,
 				009F75561850215E00E2AC77 /* TabBarViewController.m in Sources */,
 				009F75611851471700E2AC77 /* NavigationViewController.m in Sources */,
 				5E6DD545184FBFFB004E2EE9 /* MoreViewController.m in Sources */,
